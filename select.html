@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.main {
+    height: 106.5vh;
+    width: 182.3vh;
+    background-image: url('./bg.png');
+    background-size:100%;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: -1vh;
+    left: 0vh;
+    z-index: -1;
+}
+
+.sflower1 {
+    height: 10vh;
+    width: 100vh;
+    background-image: url('./sflower1.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 86vh;
+    left: 22.5vw;
+    z-index: 1;
+}
+
+.sflower2 {
+    height: 12vh;
+    width: 100vh;
+    background-image: url('./sflower2.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 2.5vh;
+    left: 22.2vw;
+    z-index: 1;
+}
+
+
+
+</style>
+<link rel="stylesheet" href="select.css">
+<body>
+		<div class="sflower1"></div>
+		<div class="sflower2"></div>
+		<div class="main">
+			<h1><a href="question1.html" onclick="handlerClick('男')">MAN</a></h1>
+			<h2> SEXUAL ORIENTATION</h2>
+			<p><a href="question1.html" onclick="handlerClick('女')">WOMAN</a></p>
+		</div>
+	</body>
+
+	<script type="text/javascript">
+		// 这里是点击事件
+		// 给上边两个h1绑定了点击事件
+		function handlerClick(sex) {
+			// 将点击了男/女的记录保存起来
+			// 这里存了起来
+			localStorage.setItem("sex", sex)
+		}
+	</script>
+
+</html>

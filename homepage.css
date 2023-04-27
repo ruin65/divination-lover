@@ -1,0 +1,54 @@
+@font-face {
+    font-family: title;
+    src: url(HotRod.ttf);
+
+}
+@font-face {
+    font-family: title1;
+    src: url(RetroSuperSkinny.otf);
+
+}
+@font-face {
+    font-family: title2;
+    src: url(Ambrosia.ttf);
+
+}
+
+h1 {
+    color: rgba(212, 196, 152, 0.5);
+    font-size: 70px;
+    text-align: center;
+    font-weight: bolder;
+    position: fixed;
+    left: 75vh;
+    top: 20vh;
+    font-family: title2;
+    letter-spacing: -1px
+    
+}
+
+h2 {
+    color: rgb(36, 9, 9);
+    font-size: 65px;
+    text-align: center;
+    font-weight:1000;
+    position: fixed;
+    left: 38vh;
+    top: 38vh;
+    font-family: title1;
+    letter-spacing: 3.5px
+
+}
+
+p {
+    color: rgb(36, 9, 9);
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    position: fixed;
+    left: 86vh;
+    top: 60vh;
+    font-family: title1;
+    letter-spacing: 3px
+  
+}

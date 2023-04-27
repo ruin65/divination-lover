@@ -1,0 +1,104 @@
+
+@font-face {
+    font-family: title;
+    src: url(HotRod.ttf);
+
+}
+@font-face {
+    font-family: title1;
+    src: url(RetroSuperSkinny.otf);
+
+}
+
+
+h1 {
+    color: rgb(36, 9, 9);
+    font-size: 20px;
+    font-weight: 550;
+    position: fixed;
+    left: 103vh;
+    top: 55.86vh;
+    font-family: title;
+    letter-spacing: 3px
+  
+}
+
+
+h2 {
+    color: rgb(36, 9, 9);
+    font-size: 35px;
+    text-align: center;
+    font-weight:900;
+    position: fixed;
+    left: 42vh;
+    top: 32vh;
+    font-family: title1;
+    letter-spacing: 3.5px
+
+
+}
+
+h3 {
+    color: rgb(36, 9, 9);
+    font-size: 20px;
+    font-weight:normal;
+    position: fixed;
+    left: 89.5vh;
+    top: 20vh;
+    font-family: title;
+    letter-spacing: 3px
+}
+
+
+p {
+    color: rgb(36, 9, 9);
+    font-size: 20px;
+    text-align: center;
+    font-weight: 550;
+    position: fixed;
+    left: 75vh;
+    top: 55vh;
+    font-family: title;
+    letter-spacing: 3px
+  
+}
+
+.main #img {
+	width: 12vw;
+	position: fixed;
+	left: 43.8vw;
+	top: 25vh;
+	display: none;
+}
+
+#word-list {
+	/* display: none; */
+	width: 100vw;
+	height: 100vh;
+}
+
+#keyWord {
+	color: rgb(36, 9, 9);
+	font-size: 25px;
+	text-align: center;
+	font-weight: 900;
+	position: fixed;
+	left: 44vh;
+	top: 30vh;
+	font-family: title;
+	letter-spacing: 3px;
+	width: 50vw;
+}
+
+#sentence {
+	color: rgb(36, 9, 9);
+	font-size: 18px;
+	text-align: center;
+	font-weight: 900;
+	position: fixed;
+	left: 44vh;
+	top: 45vh;
+	font-family: title1;
+	letter-spacing: 3.5px;
+	width: 50vw;
+}

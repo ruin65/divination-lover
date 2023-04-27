@@ -1,0 +1,61 @@
+@font-face {
+    font-family: title;
+    src: url(HotRod.ttf);
+
+}
+@font-face {
+    font-family: title1;
+    src: url(RetroSuperSkinny.otf);
+
+}
+
+
+h1 {
+    color: rgb(36, 9, 9);
+    font-size: 30px;
+    font-weight: 550;
+    position: fixed;
+    left: 70vh;
+    top: 50vh;
+    font-family: title;
+    letter-spacing: 3px
+  
+}
+
+h2 {
+    color: rgb(36, 9, 9);
+    font-size: 30px;
+    text-align: center;
+    font-weight:900;
+    position: fixed;
+    left: 47vh;
+    top: 30vh;
+    font-family: title1;
+    letter-spacing: 3.5px
+
+}
+
+h3 {
+    color: rgb(36, 9, 9);
+    font-size: 20px;
+    font-weight:normal;
+    position: fixed;
+    left: 85vh;
+    top: 20vh;
+    font-family: title;
+    letter-spacing: 3px
+}
+
+
+p {
+    color: rgb(36, 9, 9);
+    font-size: 30px;
+    text-align: center;
+    font-weight: 550;
+    position: fixed;
+    left: 95vh;
+    top: 50vh;
+    font-family: title;
+    letter-spacing: 3px
+  
+}
